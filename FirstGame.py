@@ -7,7 +7,7 @@ class Game(simpleGE.Scene):
         self.setCaption("Use W/S To Move and Space to Shoot! Kill As Many Zombies As You Can!")
         self.player = Player(self)
         self.arrow = Arrow(self, self.player)
-        self.numZombies = 5
+        self.numZombies = 7
         self.score = 0
         self.lblScore = LblScore()
         self.zombies = []
